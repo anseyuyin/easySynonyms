@@ -16,12 +16,14 @@ print('''
 
 print('''
         使用说明:
-            近义词   :词句
-            语句比较 :输入第一句 vs 输入第二句
-            语句拆分 :seg 词句
+            近义词          :词句
+            语句分词        :seg 词句
+            语句比较        :输入第一句 vs 输入第二句
+            语句分词比较    :输入第一句 vs_seg 输入第二句
 ''')
 
 compareTag = ' vs '
+compareSegTag = ' vs_seg '
 segTag = 'seg '
 
 # 近义词 打印
@@ -30,24 +32,26 @@ def cPrintDisplay(str):
     synonyms.display(str)
     print ('@-@')
 
-def cPrintCompare(s1,s2):
-    result = synonyms.compare(s1,s2)
+def cPrintCompare(s1,s2 , seg ):
+    result = synonyms.compare(s1,s2,seg)
     print ('@+@')
-    print(s2 , compareTag , s1 , '近似度:' , result)
+    print(s1 , compareTag , s2 , '近似度:' , result)
     print ('@-@')
 
 def cPrintSeg(str):
     result = synonyms.seg(str)
     print ('@+@')
-    print('拆分为:' , result)
+    print('分词为:' , result)
     print ('@-@')
 
 # 命令解析
 def commandParse(str):
     if str.find(compareTag) != -1:
-        # print('compareTag')
         strs = str.split(compareTag)
-        cPrintCompare(strs[0] , strs[1])
+        cPrintCompare(strs[0] , strs[1],False)
+    elif str.find(compareSegTag) != -1:
+        strs = str.split(compareSegTag)
+        cPrintCompare(strs[0] , strs[1],True)
     elif str.find(segTag) != -1:
         strs = str.split(segTag)
         cPrintSeg(strs[1])

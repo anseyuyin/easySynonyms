@@ -1,0 +1,13 @@
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\bin\Debug\easySynonyms.exe.config
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\bin\Debug\easySynonyms.exe.manifest
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\bin\Debug\easySynonyms.application
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\bin\Debug\easySynonyms.exe
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\bin\Debug\easySynonyms.pdb
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.csprojResolveAssemblyReference.cache
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.Form1.resources
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.Properties.Resources.resources
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.csproj.GenerateResource.Cache
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.exe.manifest
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.application
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.exe
+D:\MyProject\Git\easySynonyms\src\C#Client\easySynonyms\obj\Debug\easySynonyms.pdb
