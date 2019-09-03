@@ -10,3 +10,4 @@
 2.安装 Synonyms 库 (pip install -U synonyms -i https://mirrors.ustc.edu.cn/pypi/web/simple/)
 
 3.下载使用 easySynonyms 工具
+[下载地址](https://github.com/anseyuyin/easySynonyms/raw/master/release/easySynonyms_win_1.0.0.zip)
